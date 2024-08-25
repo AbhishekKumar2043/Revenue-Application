@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
+import "index.html";
  
 const formatNumber = (number) => new Intl.NumberFormat("en", { minimumFractionDigits: 2 }).format(number);
 const sortOn = (arr, prop) => arr.sort (
